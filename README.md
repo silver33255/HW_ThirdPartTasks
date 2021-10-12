@@ -13,3 +13,12 @@
 ### Solution
 - Added cache for User entity
 - Created integration test for User
+
+## Task 14. Docker
+run docker-compose up in the directory which contains docker-compose.yaml as result I will get fully-functional CRUD service (I can send appropriate request and entity will be created-read-updated-deleted in the database)
+
+### Solution
+1. Build 'DockerApp-0.0.1-SNAPSHOT.jar'
+2. run docker-compose in project source folder
+3. By default web-app has port :8080
+4. Source path for CRUD operation is /sessions
